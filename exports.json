@@ -2,7 +2,7 @@
   "BackendStack": {
     "awsAppsyncApiEndpoint": "https://ysrbz67zjreivfexew2dznvjpm.appsync-api.us-east-1.amazonaws.com/graphql",
     "awsAppsyncApiId": "e6by5ifmvvghlda2xfrlksg6l4",
-    "AppSyncAPIId": "us-east-1:b9ffecc6-6236-495c-8ba9-09974c6b5bd3",
+    "AppSyncAPIId": "e6by5ifmvvghlda2xfrlksg6l4",
     "amplifyApiModelSchemaS3Uri": "s3://backendstack-tacorecipesdeployamplifycodegenasset-1jif4nvpla82u/model-schema.graphql",
     "awsAppsyncAdditionalAuthenticationTypes": "AWS_IAM",
     "awsAppsyncRegion": "us-east-1",
@@ -10,8 +10,8 @@
     "awsAppsyncAuthenticationType": "AMAZON_COGNITO_USER_POOLS",
     "UserPoolId": "us-east-1_SRdpqTeYt",
     "IdentityPoolId": "us-east-1:b9ffecc6-6236-495c-8ba9-09974c6b5bd3",
-    "AppSyncAPIEndpoint": "us-east-1:b9ffecc6-6236-495c-8ba9-09974c6b5bd3",
-    "AppSyncAuthType": "us-east-1:b9ffecc6-6236-495c-8ba9-09974c6b5bd3",
+    "AppSyncAPIEndpoint": "https://ysrbz67zjreivfexew2dznvjpm.appsync-api.us-east-1.amazonaws.com/graphql",
+    "AppSyncAuthType": "AMAZON_COGNITO_USER_POOLS",
     "AppRegion": "us-east-1"
   }
 }

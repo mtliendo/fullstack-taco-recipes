@@ -40,13 +40,13 @@ export class BackendStack extends cdk.Stack {
 			value: tacoAuth.identityPool.identityPoolId,
 		})
 		new cdk.CfnOutput(this, 'AppSyncAPIEndpoint', {
-			value: tacoAuth.identityPool.identityPoolId,
+			value: tacoAPI.graphqlUrl,
 		})
 		new cdk.CfnOutput(this, 'AppSyncAPIId', {
-			value: tacoAuth.identityPool.identityPoolId,
+			value: tacoAPI.resources.graphqlApi.apiId,
 		})
 		new cdk.CfnOutput(this, 'AppSyncAuthType', {
-			value: tacoAuth.identityPool.identityPoolId,
+			value: tacoAPI.resources.cfnResources.cfnGraphqlApi.authenticationType,
 		})
 		new cdk.CfnOutput(this, 'AppRegion', {
 			value: this.region,

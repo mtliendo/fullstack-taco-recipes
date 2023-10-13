@@ -1,14 +1,14 @@
-import { BackendStack } from './exports.json'
+import cdkOutputs from './exports.json'
 
 export const config = {
-	aws_project_region: BackendStack.AppRegion,
+	aws_project_region: cdkOutputs.BackendStack.AppRegion,
 	Auth: {
-		region: BackendStack.AppRegion,
-		userPoolId: BackendStack.UserPoolId,
-		userPoolWebClientId: BackendStack.UserPoolClientId,
-		identityPoolId: BackendStack.IdentityPoolId,
+		region: cdkOutputs.BackendStack.AppRegion,
+		userPoolId: cdkOutputs.BackendStack.UserPoolId,
+		userPoolWebClientId: cdkOutputs.BackendStack.UserPoolClientId,
+		identityPoolId: cdkOutputs.BackendStack.IdentityPoolId,
 	},
-	aws_appsync_graphqlEndpoint: BackendStack.AppSyncAPIEndpoint,
-	aws_appsync_region: BackendStack.AppRegion,
-	aws_appsync_authenticationType: BackendStack.AppSyncAuthType,
+	aws_appsync_graphqlEndpoint: cdkOutputs.BackendStack.AppSyncAPIEndpoint,
+	aws_appsync_region: cdkOutputs.BackendStack.AppRegion,
+	aws_appsync_authenticationType: cdkOutputs.BackendStack.AppSyncAuthType,
 }
