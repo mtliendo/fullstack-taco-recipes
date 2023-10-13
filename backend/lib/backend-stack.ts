@@ -25,8 +25,8 @@ export class BackendStack extends cdk.Stack {
 			appName,
 			branch: 'with-deploy',
 			account: this.account,
-			ghOwner: 'focusOtter',
-			repo: 'fullstack-appsync-with-bedrock',
+			ghOwner: 'mtliendo',
+			repo: 'fullstack-taco-recipes',
 			ghTokenName: 'github-token',
 		})
 
